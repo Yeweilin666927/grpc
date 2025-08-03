@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 RUN apt-get update -y && apt-get install -y python3 python3-pip
 
